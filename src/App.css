@@ -7,10 +7,10 @@
 }
 
 body {
-  /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
   font-family: 'Poppins',
     sans-serif;
   background-image: url(./food-quality-banner.png);
+  background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   background-color: #fe9000;

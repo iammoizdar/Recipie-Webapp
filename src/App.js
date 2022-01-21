@@ -10,6 +10,7 @@ function App() {
   const [query, setQuery] = useState('chicken')
 useEffect(()=>{
   getRecipies()
+// eslint-disable-next-line react-hooks/exhaustive-deps
 },[query])
 
 const getRecipies = async()=>{
